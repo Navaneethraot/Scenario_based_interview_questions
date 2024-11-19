@@ -149,3 +149,103 @@ How would you expose a web application to external users in Kubernetes? What are
 
 How would you ensure that a pod doesn’t use more resources than allocated? Describe how resource requests and limits work in Kubernetes.
 
+# Cluster Management and Architecture
+
+1. Scenario: Your Kubernetes control plane crashed. How would you investigate and restore the cluster?
+
+
+2. Scenario: You need to set up a multi-node Kubernetes cluster with high availability. What architectural considerations will you take into account?
+
+
+3. Scenario: One of your worker nodes is not joining the cluster. How would you debug the issue?
+
+
+
+
+---
+
+# Networking and Ingress
+
+4. Scenario: How would you expose multiple services using a single IP with different paths (e.g., /service1 and /service2)?
+
+
+5. Scenario: A Pod cannot communicate with another Pod in a different namespace. How will you troubleshoot it?
+
+
+6. Scenario: How would you restrict certain services to be accessible only within the cluster?
+
+
+
+
+---
+
+# Storage Management
+
+7. Scenario: Your application requires persistent storage. How would you configure it in Kubernetes?
+
+
+8. Scenario: A Pod using a Persistent Volume gets stuck in the Pending state. What steps would you take to resolve the issue?
+
+
+9. Scenario: How would you ensure data redundancy in a Kubernetes cluster?
+
+
+
+
+---
+
+# Security and Access Control
+
+10. Scenario: You need to allow a specific namespace to pull images from a private Docker registry. How would you configure it?
+
+
+11. Scenario: How would you create and manage role-based access controls (RBAC) for multiple teams using the same Kubernetes cluster?
+
+
+12. Scenario: A developer reports unauthorized access to a resource. How would you audit and secure the cluster?
+
+
+
+
+---
+
+# Workload Management and Deployment Strategies
+
+13. Scenario: How would you deploy an application in a rolling update fashion while minimizing downtime?
+
+
+14. Scenario: You need to deploy a new version of an application but need the ability to quickly revert if there are issues. How would you implement this?
+
+
+15. Scenario: If a Pod becomes unresponsive during deployment, how would you identify and resolve the problem?
+
+
+
+
+---
+
+# Autoscaling and Resource Management
+
+16. Scenario: How would you configure autoscaling for an application based on CPU and memory usage?
+
+
+17. Scenario: Your application experiences unpredictable traffic spikes. How would you optimize resource allocation?
+
+
+18. Scenario: What would you do if a Pod consumes more resources than allocated, causing other applications to slow down?
+
+
+
+
+---
+
+# Monitoring and Logging
+
+19. Scenario: How would you set up monitoring for the cluster and applications running on it?
+
+
+20. Scenario: An application is running but is not behaving as expected. How would you collect logs for troubleshooting?
+
+
+21. Scenario: How would you monitor the health of Kubernetes components and trigger alerts on failure?
+
