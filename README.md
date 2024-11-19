@@ -69,6 +69,12 @@ Question: How would you monitor and troubleshoot the issue using AWS services?
 
 Question: Which tools and techniques would you use to ensure observability?
 
+Scenario: How would you set up monitoring for the cluster and applications running on it?
+
+Scenario: An application is running but is not behaving as expected. How would you collect logs for troubleshooting?
+
+Scenario: How would you monitor the health of Kubernetes components and trigger alerts on failure?
+
 ---
 
 # Cost Optimization & Governance
@@ -239,13 +245,5 @@ How would you ensure that a pod doesn’t use more resources than allocated? Des
 
 ---
 
-# Monitoring and Logging
 
-19. Scenario: How would you set up monitoring for the cluster and applications running on it?
-
-
-20. Scenario: An application is running but is not behaving as expected. How would you collect logs for troubleshooting?
-
-
-21. Scenario: How would you monitor the health of Kubernetes components and trigger alerts on failure?
 
